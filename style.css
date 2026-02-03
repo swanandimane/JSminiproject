@@ -1,0 +1,115 @@
+/* Global styles */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #eaeaea;
+    padding: 30px;
+}
+
+/* Headings */
+h1, h2 {
+    text-align: center;
+    color: #00f5d4;
+    letter-spacing: 1px;
+}
+
+/* Form container */
+.form-container {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(6px);
+    padding: 20px;
+    border-radius: 12px;
+    width: fit-content;
+    margin: 0 auto 30px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* Inputs */
+input {
+    padding: 10px;
+    margin-right: 8px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: #1f2933;
+    color: white;
+    transition: 0.3s ease;
+}
+
+input:focus {
+    box-shadow: 0 0 8px #00f5d4;
+}
+
+/* Button */
+button {
+    padding: 10px 16px;
+    background: linear-gradient(135deg, #00f5d4, #00adb5);
+    color: #0f172a;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 245, 212, 0.5);
+}
+
+/* Table */
+table {
+    width: 60%;
+    margin: 25px auto;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(8px);
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Table header */
+th {
+    background-color: rgba(0, 245, 212, 0.15);
+    color: #00f5d4;
+    padding: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Table cells */
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Row hover */
+tr:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Low stock highlight */
+.low-stock {
+    background: linear-gradient(135deg, #ff4d4d, #ff1a1a);
+    color: white;
+    font-weight: bold;
+}
+
+/* Low stock list */
+ul {
+    width: 60%;
+    margin: 15px auto;
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: rgba(255, 77, 77, 0.15);
+    border-left: 4px solid #ff4d4d;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    font-weight: bold;
+}
